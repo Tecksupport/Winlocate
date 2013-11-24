@@ -19,7 +19,7 @@ def update():
     time.sleep(0.1)
     instalpath = (raw_input("Please enter the path\nthat git was installed at "))
     print "changing directories"
-    os.chdir(intalpath)
+    os.chdir(instalpath)
     time.sleep(0.1)
     os.system("git clone git://github.com/Tecksupport/Winlocate" )
     time.sleep(0.1)
