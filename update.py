@@ -27,8 +27,10 @@ def update():
     time.sleep(0.1)
     print "We are now into the directory of", os.getcwd()
     path = (raw_input("Please enter the path you would me to move to"))
+    print "Moving your files"
     os.system("mv Winlocate " + path)
     print "Done!! Bitches!!!!\n\nEnjoy your new script"
+    
     
          
 
