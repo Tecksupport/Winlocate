@@ -16,20 +16,18 @@ def update():
         ins = (raw_input("It should now be installed"))
         pass
     print "Your current directory is", os.getcwd()
-    print "Changing directoies"
     time.sleep(0.1)
-    instalpath = (raw_input("Please enter the path\n\nthat git was installed at "))
-    os.chdir("C:/Program Files/Git/bin")
+    instalpath = (raw_input("Please enter the path\nthat git was installed at "))
+    print "changing directories"
+    os.chdir(intalpath)
     time.sleep(0.1)
     os.system("git clone git://github.com/Tecksupport/Winlocate" )
     time.sleep(0.1)
-    wait = (raw_input("Done!"))
-    print "change dir"
+    wait = (raw_input("Done! Please press Enter "))
     time.sleep(0.1)
-    print os.getcwd()
-    print "moving your files"
+    print "We are now into the directory of", os.getcwd()
     path = (raw_input("Please enter the path you would me to move to"))
-    os.system("mv Winlocate " , path)
+    os.system("mv Winlocate " + path)
     print "Done!! Bitches!!!!\n\nEnjoy your new script"
     
          
