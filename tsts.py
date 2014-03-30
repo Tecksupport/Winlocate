@@ -269,47 +269,47 @@ while True:
             ff = open('location.txt', 'w') 
             ff.write(re.sub(pattern,'',s))
             ff.close()
-            lip = open('location.txt').readlines()[58],
+            lip = open('location.txt').readlines()[60],
             for lines in lip:
                 ctypes.windll.kernel32.SetConsoleTextAttribute(handle, FOREGROUND_LIG)
                 print (lines) 
-            trip = open('location.txt').readlines()[66],
+            trip = open('location.txt').readlines()[61],
             for lines in trip:
                 print (lines)
-            rip = open('location.txt').readlines()[67],
+            rip = open('location.txt').readlines()[62],
             for lines in rip:
                 print (lines)
-            it = open('location.txt').readlines()[68],
+            it = open('location.txt').readlines()[63],
             for lines in it:
                 print (lines)
-            of = open('location.txt').readlines()[69],
+            of = open('location.txt').readlines()[64],
             for lines in of:
                 print (lines)
-            read = open('location.txt').readlines()[70],
+            read = open('location.txt').readlines()[65],
             for lines in read:
                 print (lines)
-            ancor = open('location.txt').readlines()[71],
+            ancor = open('location.txt').readlines()[66],
             for lines in ancor:
                 print (lines)
-            teck = open('location.txt').readlines()[72],
+            teck = open('location.txt').readlines()[67],
             for lines in teck:
                 print (lines)
-            god = open('location.txt').readlines()[73], 
+            god = open('location.txt').readlines()[68], 
             for lines in god:
                 print (lines)
-            ip = open('location.txt').readlines()[74],
+            ip = open('location.txt').readlines()[69],
             for lines in ip:
                 print (lines)
-            look = open('location.txt').readlines()[75],
+            look = open('location.txt').readlines()[70],
             for line in look:
                 print (lines)
-            hack = open('location.txt').readlines()[76],
+            hack = open('location.txt').readlines()[71],
             for lines in hack:
                 print (lines)
-            vito = open ('location.txt').readlines()[77],
+            vito = open ('location.txt').readlines()[72],
             for lines in vito:
                 print (lines)
-            HGB = open('location.txt').readlines()[78],
+            HGB = open('location.txt').readlines()[73],
             for lines in HGB:
                 print (lines)
                 ctypes.windll.kernel32.SetConsoleTextAttribute(handle, reset)
